@@ -11,17 +11,6 @@ import {
 import About from './about';
 
 class App extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            list: listData
-        }
-    }
-    addItem(item) {
-        this.setState({
-            list: [item, ...this.state.list]
-        })
-    }
     render() {
         return (
             <div className="container">
